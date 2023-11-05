@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.regexjavadocassignment.HelloController">
    <children>
       <Label layoutX="76.0" layoutY="14.0" prefHeight="43.0" prefWidth="218.0" text="Registration" textAlignment="CENTER" underline="true">
@@ -19,11 +18,11 @@
       <Label layoutX="54.0" layoutY="170.0" text="Email" />
       <Label layoutX="55.0" layoutY="207.0" text="Date of Birth" />
       <Label layoutX="54.0" layoutY="248.0" text="Zip code" />
-      <TextField fx:id="FirstNameField" layoutX="123.0" layoutY="85.0" onMouseExited="#validateAll" />
-      <TextField fx:id="LastNameField" layoutX="123.0" layoutY="128.0" onMouseExited="#validateAll" />
-      <TextField fx:id="EmailField" layoutX="123.0" layoutY="166.0" onMouseExited="#validateAll" />
-      <TextField fx:id="DOBField" layoutX="123.0" layoutY="203.0" onMouseExited="#validateAll" />
-      <TextField fx:id="ZipField" layoutX="123.0" layoutY="244.0" onMouseExited="#validateAll" />
+      <TextField fx:id="FirstNameField" layoutX="123.0" layoutY="85.0" />
+      <TextField fx:id="LastNameField" layoutX="123.0" layoutY="128.0" />
+      <TextField fx:id="EmailField" layoutX="123.0" layoutY="166.0" />
+      <TextField fx:id="DOBField" layoutX="123.0" layoutY="203.0" />
+      <TextField fx:id="ZipField" layoutX="123.0" layoutY="244.0" />
       <Button fx:id="AddButton" disable="true" layoutX="171.0" layoutY="289.0" mnemonicParsing="false" onAction="#onAddButtonClick" text="Add" />
    </children>
 </AnchorPane>
